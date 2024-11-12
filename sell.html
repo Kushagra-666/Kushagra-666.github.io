@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Website - Sell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar included in every page -->
+    <nav class="navbar">
+        <h1 style="color: whitesmoke;">BOOKLY</h1> <br>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="sell.html">Sell</a></li>
+            <li><a href="read.html">Read</a></li>
+            <li><a href="rent.html">Rent</a></li>
+            <li><a href="write.html">Creative writing space</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Categories</a>
+                <div class="dropdown-content">
+                    <a href="fiction.html">Fiction</a>
+                    <a href="non-fiction.html">Non-Fiction</a>
+                    <a href="mystery.html">Mystery</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="fantasy.html">Fantasy</a>
+                    <a href="science.html">Science</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Sell Your Books</h1>
+        <p>List your books for sale here.</p>
+    </header>
+
+    <div class="sell-form">
+        <form>
+            <label for="book-title">Book Title</label>
+            <input type="text" id="book-title" name="book-title" required>
+            
+            <label for="book-author">Author Name</label>
+            <input type="text" id="book-author" name="book-author" required>
+            
+            <label for="book-price">Price</label>
+            <input type="number" id="book-price" name="book-price" required>
+            
+            <button type="submit">Sell</button>
+        </form>
+    </div>
+</body>
+</html>
